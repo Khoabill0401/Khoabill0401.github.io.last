@@ -1,8 +1,3 @@
-/**
- * @license
- * Copyright 2010-2022 Three.js Authors
- * SPDX-License-Identifier: MIT
- */
 const REVISION = '141';
 const MOUSE = { LEFT: 0, MIDDLE: 1, RIGHT: 2, ROTATE: 0, DOLLY: 1, PAN: 2 };
 const CullFaceNone = 0;
@@ -39412,7 +39407,7 @@ const loadingText = loadingElem.querySelector('p');
 
 loader.load(
 	// resource URL
-	'../../../GLTF/police_station.glb',
+	'./police_station.glb',
 	// called when the resource is loaded
 	( gltf ) => {
 
